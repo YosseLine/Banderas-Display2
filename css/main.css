@@ -1,0 +1,39 @@
+/* Seleccionamos todas las etiquetas de nuestro archivo html*/
+*{
+  /* Llamanos a la propiedad box-sizing, para que todos nuestros box sean de igual tamaño*/
+  box-sizing: border-box;
+}
+/* Seleccionamos por etiqueta a todos los elementos h4*/
+h4{
+  /*Lo alineamos a la derecha*/
+	text-align: left;
+  /*Generamos un margen de 9px*/
+  margin: 9px;
+  /*Generamos un relleno superior en nuestros elementos*/
+	padding-top: 5px;
+/*Establecemos un relleno hacia la izquierda, para separar nuestros h4 de nuestros box*/
+	padding-left:10px;
+  /*Establecemos un relleno inferior*/
+	padding-bottom: 95px;
+  /*Modificamos el tipo de letra*/
+	font-family: serif;
+  /*Modificamos los caracteres para que se vean delgados*/
+  font-weight: lighter;
+  /*Mostramos los elementos en líneas independientes*/
+  display: block;
+  /*Aplicamos la propiedad width, para reducir el anchode nuestro box, pero seguirá ocupando todo el ancho de la página*/
+  width: 220px;
+}
+/* Seleccionamos a dos atributos id, cuyos valores son bandera1 y bandera3, respectivamente, y le cambiamos el color de fondo*/
+#bandera1, #bandera3{
+	background-color: #E3B314;
+}
+/* Seleccionamos al valor bandera2 del atributo id y le modificamos el color de fondo y el color de letra*/
+#bandera2{
+	background-color: #211F1B;
+	color: white;
+}
+/* Seleccionamos al valor bandera1 del atributo id y le disminuimos el espacio entre caracteres*/
+#bandera1{
+letter-spacing: -0.5pt;
+}
