@@ -1,4 +1,4 @@
-# BANDERAS DISPLAY
+# BANDERAS DISPLAY 2
 
 ## Introducción
 
@@ -10,6 +10,6 @@
 
 - Hemos usado el atributo id, creando ciertos valores.
 
-- Usamos el elemento display y modificamos en ancho del box.
+- Usamos el elemento display y modificamos el ancho del box.
 
 - Y por último, también hemos usado algunas propiedas muy conocidas de css.
